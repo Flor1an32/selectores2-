@@ -1,0 +1,39 @@
+
+.boton button::before{
+    content: "Pasar por encima";
+    
+}
+
+.boton button::after{
+    content: "hecho!";
+    opacity: 0;
+}
+
+.boton button:hover::before{
+    background-color: greenyellow;
+    color: white;
+    opacity: 0;
+}
+
+.boton button:hover::after{
+    background-color: greenyellow;
+    color: white;
+    opacity: 1;
+}
+
+
+
+
+
+
+
+
+
+
+    
+
+
+    
+    
+
+
